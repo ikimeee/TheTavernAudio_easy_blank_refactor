@@ -150,10 +150,10 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144514035905870
+  lastModified: 639144523477053252
   FileSizes:
   - Name: Desktop
-    Value: 11536352
+    Value: 11585120
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -176,18 +176,46 @@ MonoBehaviour:
   - {fileID: -5328033777432568000}
   - {fileID: -8334238234426752400}
   - {fileID: -6867127181827494599}
+  - {fileID: 2294195631613479976}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2045500224607146913}
   StringsBanks:
   - {fileID: 4312008393778355019}
   cacheVersion: 131859
-  cacheTime: 639144514035915929
+  cacheTime: 639144523477063246
   SerializableEventsDict:
   - key: event:/door open
     index: 0
   - key: event:/forest amb
     index: 1
+--- !u!114 &2294195631613479976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/steps on wood
+  m_EditorClassIdentifier: 
+  Path: event:/steps on wood
+  Guid:
+    Data1: -183886762
+    Data2: 1126952654
+    Data3: -2031620956
+    Data4: -1272212823
+  Banks:
+  - {fileID: -2045500224607146913}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4312008393778355019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,8 +231,8 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144514035915929
+  lastModified: 639144523477063246
   FileSizes:
   - Name: Desktop
-    Value: 942
+    Value: 986
   Exists: 1
