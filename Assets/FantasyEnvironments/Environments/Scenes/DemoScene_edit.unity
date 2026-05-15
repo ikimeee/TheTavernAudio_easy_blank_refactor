@@ -6656,11 +6656,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 815695293
+      Data2: 1197454358
+      Data3: -2057562181
+      Data4: -1747147160
+    Path: event:/forest amb
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -6670,8 +6670,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!135 &2093527919
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6755,7 +6755,7 @@ Transform:
   m_GameObject: {fileID: 2093527917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413.31, y: 10.8, z: 308.22}
+  m_LocalPosition: {x: 413.31, y: 10.964, z: 308.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

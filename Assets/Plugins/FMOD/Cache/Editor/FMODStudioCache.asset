@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8334238234426752400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music
+  m_EditorClassIdentifier: 
+  Path: event:/music
+  Guid:
+    Data1: -2108632694
+    Data2: 1154595868
+    Data3: -643364965
+    Data4: -135287235
+  Banks:
+  - {fileID: -2045500224607146913}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 294500
+--- !u!114 &-6867127181827494599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fire
+  m_EditorClassIdentifier: 
+  Path: event:/fire
+  Guid:
+    Data1: 647169932
+    Data2: 1289775154
+    Data3: -1639025767
+    Data4: 1219458843
+  Banks:
+  - {fileID: -2045500224607146913}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 294500
 --- !u!114 &-5573845151452625958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +81,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 294500
+--- !u!114 &-5328033777432568000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/tavern
+  m_EditorClassIdentifier: 
+  Path: event:/tavern
+  Guid:
+    Data1: 613526569
+    Data2: 1174856121
+    Data3: 1322834336
+    Data4: 79797741
+  Banks:
+  - {fileID: -2045500224607146913}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 294500
+--- !u!114 &-4554255838779066452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/forest amb
+  m_EditorClassIdentifier: 
+  Path: event:/forest amb
+  Guid:
+    Data1: 815695293
+    Data2: 1197454358
+    Data3: -2057562181
+    Data4: -1747147160
+  Banks:
+  - {fileID: -2045500224607146913}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 294500
 --- !u!114 &-2045500224607146913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,38 +150,11 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144498586750832
+  lastModified: 639144514035905870
   FileSizes:
   - Name: Desktop
-    Value: 3877408
+    Value: 11536352
   Exists: 1
---- !u!114 &-1528177754443081940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/forest amb
-  m_EditorClassIdentifier: 
-  Path: event:/forest amb
-  Guid:
-    Data1: 2099740223
-    Data2: 1102488323
-    Data3: 1858829957
-    Data4: -536156821
-  Banks:
-  - {fileID: -2045500224607146913}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 294500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,14 +172,17 @@ MonoBehaviour:
   - {fileID: -2045500224607146913}
   EditorEvents:
   - {fileID: -5573845151452625958}
-  - {fileID: -1528177754443081940}
+  - {fileID: -4554255838779066452}
+  - {fileID: -5328033777432568000}
+  - {fileID: -8334238234426752400}
+  - {fileID: -6867127181827494599}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2045500224607146913}
   StringsBanks:
   - {fileID: 4312008393778355019}
   cacheVersion: 131859
-  cacheTime: 639144498586766369
+  cacheTime: 639144514035915929
   SerializableEventsDict:
   - key: event:/door open
     index: 0
@@ -119,8 +203,8 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144498586766369
+  lastModified: 639144514035915929
   FileSizes:
   - Name: Desktop
-    Value: 824
+    Value: 942
   Exists: 1
