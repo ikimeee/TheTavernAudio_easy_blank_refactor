@@ -526,8 +526,9 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/tavern.fspro
-  sourceBankPath: ../../../Downloads/tavern-20260515T111342Z-3-001/tavern/Build
+  sourceProjectPath: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/AudioFmod
+    (1).fspro
+  sourceBankPath: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
@@ -549,8 +550,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
