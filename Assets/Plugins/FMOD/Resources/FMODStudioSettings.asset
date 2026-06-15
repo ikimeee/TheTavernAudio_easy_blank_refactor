@@ -526,8 +526,7 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/AudioFmod
-    (1).fspro
+  sourceProjectPath: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/tavern.fspro
   sourceBankPath: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
@@ -564,7 +563,7 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131859
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131617
   Platforms:
   - {fileID: -7113343091406021913}
