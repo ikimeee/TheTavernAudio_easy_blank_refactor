@@ -332,10 +332,10 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001-20260625T194118Z-3-001/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639180267254845455
+  lastModified: 639180298505371182
   FileSizes:
   - Name: Desktop
-    Value: 1342
+    Value: 1422
   Exists: 1
 --- !u!114 &-2368915874670829653
 MonoBehaviour:
@@ -411,6 +411,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 11585120
   Exists: 1
+--- !u!114 &-1930300449178220308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/jump_stone
+  m_EditorClassIdentifier: 
+  Path: event:/jump_stone
+  Guid:
+    Data1: 305207534
+    Data2: 1078359402
+    Data3: 1452111542
+    Data4: -501486388
+  Banks:
+  - {fileID: 7273138034225038832}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-795499434931843948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,13 +492,15 @@ MonoBehaviour:
   - {fileID: 3572223278919442598}
   - {fileID: -5459383875854731521}
   - {fileID: 4438977961930529952}
+  - {fileID: 5852904077274451328}
+  - {fileID: -1930300449178220308}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7273138034225038832}
   StringsBanks:
   - {fileID: -3599043950129636895}
   cacheVersion: 131859
-  cacheTime: 639180267254845455
+  cacheTime: 639180298505371182
   SerializableEventsDict:
   - key: event:/door open
     index: 0
@@ -495,6 +524,10 @@ MonoBehaviour:
     index: 9
   - key: event:/music
     index: 10
+  - key: event:/fall_stone
+    index: 11
+  - key: event:/jump_stone
+    index: 12
 --- !u!114 &815015774594472593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,6 +764,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 294500
+--- !u!114 &5852904077274451328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fall_stone
+  m_EditorClassIdentifier: 
+  Path: event:/fall_stone
+  Guid:
+    Data1: -1804854684
+    Data2: 1321549278
+    Data3: 22540972
+    Data4: 292076094
+  Banks:
+  - {fileID: 7273138034225038832}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7202133104592936093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,10 +826,10 @@ MonoBehaviour:
   Path: ../../../Downloads/tavern-10.06-20260611T074728Z-3-001-20260625T194118Z-3-001/tavern-10.06-20260611T074728Z-3-001/tavern-10.06/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639180267254830412
+  lastModified: 639180298505345903
   FileSizes:
   - Name: Desktop
-    Value: 9562368
+    Value: 11749600
   Exists: 1
 --- !u!114 &8556134418292348087
 MonoBehaviour:
