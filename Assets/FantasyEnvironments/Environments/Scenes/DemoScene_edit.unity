@@ -2466,11 +2466,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1658672309
-      Data2: 1256195842
-      Data3: -1044470854
-      Data4: 1687057179
-    Path: event:/Steps_Stone
+      Data1: 1137545940
+      Data2: 1193868798
+      Data3: 2078569357
+      Data4: 1312863949
+    Path: event:/footsteps
   jumpEvent:
     Guid:
       Data1: 305207534
@@ -2502,11 +2502,11 @@ MonoBehaviour:
   snapshotActivated: 0
   outsideSnapshot:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1403088385
+      Data2: 1139256556
+      Data3: 2100526227
+      Data4: 1824224381
+    Path: snapshot:/outside
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
